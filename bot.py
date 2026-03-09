@@ -6,7 +6,7 @@ import asyncio
 
 load_dotenv()
 
-TOKEN = "MTQ3NzQ5NTEwNDQ4OTkxNDQ1MA.G6D_yS.zL5UpuNOoCHmpBpvjJMAp4PfGoiXXG3aX-_TIs"
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 
